@@ -5,11 +5,11 @@ This website calculates the expected sum of money from hostel money collected du
 ## Setup/Installation Requirements
 * Open terminal
 * Change directory to the location you want to copy the project to.
-* Clone the repo {git clone https://jaredtoo.github.io/hostel/}
+* Clone the repo {git clone https://jaredtoo.github.io/hoste/}
 * Now you have the project in your local machine
 
 ### Live Site
-View [live](https://jaredtoo.github.io/hostel/)
+View [live](https://jaredtoo.github.io/hoste/)
 ## Known Bugs
 The default number of rooms is zero.
 ## Technologies Used
