@@ -1,0 +1,187 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-image: url(image/hostel.jpg);
+    background-size: cover;
+}
+
+.guide_container>button {
+    float: right;
+    padding: 5px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 5%;
+}
+
+.guide_container>p {
+    float: right;
+    text-align: right;
+    font-size: 19px;
+    color: blue;
+    width: 30%;
+    clear: right;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.guide_container>button:hover {
+    background-color: white;
+    color: teal;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline wavy 2px blue;
+    margin-top: 4%;
+    color: yellowgreen;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+.inputs {
+    position: sticky;
+    border: 2px solid blue;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 10px;
+    width: 500px;
+    border-radius: 5px;
+    background: rgb(233, 233, 233);
+    opacity: 0.8;
+}
+
+.inputs>div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inputs>div>label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inputs>div>input {
+    width: 200px;
+    border-radius: 4px;
+    height: 20px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.inputs>div>p {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.outputs>h4 {
+    color: yellow;
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.outputs>h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.inputs>.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs>.button>button {
+    background: green;
+    padding: 8px;
+    border-radius: 4px;
+    width: 230px;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+    border: 0px;
+}
+
+.inputs>div>input:hover {
+    border: 4px solid rgb(156, 230, 255);
+    border-radius: 4px;
+    height: 20px;
+    font-size: 19px;
+}
+
+.inputs>.button>button:hover {
+    background: rgb(9, 66, 9);
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px;
+        background-image: url(image/hostel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .guide_container>p {
+        clear: both;
+        width: 80%;
+    }
+    .guide_container {
+        clear: both;
+    }
+    .container {
+        clear: both;
+    }
+    h1 {
+        text-transform: uppercase;
+    }
+    .inputs {
+        width: 80%;
+        overflow: unset;
+        opacity: 0.8;
+    }
+    .inputs>div>input {
+        width: 60%;
+    }
+    .inputs>.button {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
